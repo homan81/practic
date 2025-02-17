@@ -576,6 +576,10 @@ dest(user2)
 //     location.reload(),3000
 // );
 
+function dest({age,firstname}){
+    console.log(age,firstname);
+}
 
+dest(user2)
 
 // 
