@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Defer Example</title>
+
+  <style>
+    h2 {
+      color: black;
+    }
+  </style>
+
+  
+
+</head>
+
+<body>
+
+  <h2 id="heading">Hello, I'm ready to change!</h2>
+  <p>Wait for the JavaScript to load and execute.</p>
+  <p>Wait for the JavaScript to load and execute.</p>
+
+  <script src="script.js"></script>
+  <script src="script1.js"></script>
+
+  <!-- <button onclick="startRepeatingAlarm(3)">Start Alarm</button>
+  <button onclick="stopRepeatingAlarm()">Stop Alarm</button>
+
+  <script>
+  let alarmInterval;
+  let alarmSound = new Audio("new-zealand-eas-alarm-tsunami-279662.mp3"); // Local file
+
+  function startRepeatingAlarm(intervalInSeconds) {
+      console.log(`⏰ Alarm will ring every ${intervalInSeconds} seconds...`);
+
+      alarmInterval = setInterval(() => {
+          console.log("⏰ Alarm ringing! Wake up!");
+          alarmSound.currentTime = 0; // Reset audio to start
+          alarmSound.play().catch(error => console.error("Audio play failed:", error)); // Handle errors
+      }, intervalInSeconds * 1000);
+  }
+
+  function stopRepeatingAlarm() {
+      clearInterval(alarmInterval);
+      console.log("❌ Repeating alarm stopped.");
+      alarmSound.pause(); // Stop the sound immediately
+      alarmSound.currentTime = 0; // Reset sound to start
+  }
+  </script> -->
+
+</body>
+
+</html>
