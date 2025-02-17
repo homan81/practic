@@ -582,4 +582,15 @@ function dest({age,firstname}){
 
 dest(user2)
 
+
+const user3 = {
+    firstname: 'homan',
+    age: 22,
+    address: {
+        city: 'mohali',
+        area: 'ambala',
+    }
+}
+
+
 // 
